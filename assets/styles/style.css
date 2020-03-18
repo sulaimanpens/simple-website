@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-image: url("../image/bg.png");
+   background-color: #00c8eb;
+   text-align: center;
+   color: white;
+}
+
+header {
+   display: inline;
+}
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+ h2 {
+    color: #00a2c6
+ }
+  
+ h3 {
+    color: #00a2c6
+ }
+
+ .card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+
+nav {
+   background-color: #00a2c6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.profile header {
+   text-align: center;
+}
+
+.profile img {
+   width: 200px;
+}
+
+.profile {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+}
+
+.section {
+   text-align: center;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+   width: 100%;
+   border: 1px solid #ddd;
+}
+
+th,
+td {
+   text-align: center;
+   padding: 16px;
+}
+
+th {
+   background-color: #00a2c6;
+   color: white;
+}
+ 
+tr:nth-child(even) {
+   background-color: #d2d2d2;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6;
+   text-align: center;
+   font-weight: bold;
+}
+
+#liveNumbers {
+   font-size: 40px;
+   font-family: Helvetica;
+}
